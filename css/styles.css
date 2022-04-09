@@ -1,0 +1,154 @@
+:root {--accent-color: #2196F3;
+    --maint-font:'Roboto',sans-serif;
+    --secondary-font: 'Raleway', sans-serif;
+    --main-text-color-title: #212121;
+    --secondary-text-color: #757575;
+    --dark-fond-section: #2F303A;
+    --light-fond-section: #FFFFFF;
+    --fond-work-section:#F5F4FA;
+    
+}
+
+
+    body{
+        font-family: var(--maint-font);
+        color: var(--secondary-text-color); 
+      }
+    
+.list {
+    list-style: none;
+}
+.link {
+    text-decoration: none;
+  }
+
+
+/*============HEADER==========*/
+
+.logo {
+    font-family: var(--secondary-font);
+font-weight: 700;
+font-size: 26px;
+line-height: 31px;
+letter-spacing: 0.03em;
+color: #000000;
+}
+
+.menu-link:hover,
+.menu-link:focus {
+    color: var(--accent-color);
+}
+
+.menu-link {
+font-family: var(--secondary-font);
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+color:var(--main-text-color-title);
+}
+
+.header-contact:hover,
+.header-contact:focus {
+    color: var(--accent-color);
+}
+
+.header-contact {
+    font-family: var(--secondary-font);
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+color: var(--secondary-text-color);
+}
+/*============/HEADER==========*/
+
+/*============MAIN==========*/
+/*============SECTION 1==========*/
+.main-title {
+font-weight: 900;
+font-size: 44px;
+line-height: 1.5;
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+
+.modal-btn {
+font-weight: 700;
+font-size: 16px;
+line-height: 1.88;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
+color: #FFFFFF;
+background-color: #2196F3;
+
+}
+
+.dark-section {
+    background-color: var(--dark-fond-section);
+}
+/*============/SECTION 1==========*/
+
+
+/*============SECTION 2==========*/
+.section-headers {
+font-weight: 700;
+font-size: 36px;
+line-height: 1.17;
+text-align: center;
+letter-spacing: 0.03em;
+color: var(--main-text-color-title);
+}
+
+.suptitle {
+font-weight: 700;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: var(--main-text-color-title);
+}
+
+.description {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--secondary-text-color);
+}
+
+.name-title {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--main-text-color-title);
+}
+
+.work-title {
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--secondary-text-color);
+}
+
+.light-section {
+    background-color:var(--light-fond-section);
+}
+/*============/SECTION 2==========*/
+
+.work-section {
+background-color: var(--fond-work-section);
+}
+/*============FOOTER==========*/
+
+
+
+
+
+/*============/FOOTER==========*/
