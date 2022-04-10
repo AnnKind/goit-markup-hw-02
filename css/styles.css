@@ -209,3 +209,44 @@ cursor: pointer;
     letter-spacing: 0.03em;
     color: var(--secondary-text-color);
 }
+
+
+.menu-portfolio{
+    float: left;
+}
+/*
+.menu-portfolio 
+{
+    display: block;
+    padding: 8px;
+    background-color: #dddddd;
+}
+
+/*{
+    display: inline;
+}*/
+
+/* приклад горизонтального положення
+li {
+    display: inline;}
+
+    або 
+     float: left;
+    display: block;
+    padding: 8px;
+    background-color: #dddddd;*/
+
+    /* приклад коли хедер закріплюється зверху
+    header {
+        position: fixed;
+        top: 0;
+        width: 100%;
+    }
+*/
+   
+
+/* в панелі навігації світиться сторінка на якій знаходишся
+.active {
+    background-color: #4CAF50;
+    color: white;
+}*/
